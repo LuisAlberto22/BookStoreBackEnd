@@ -2,6 +2,9 @@
 {
 	public class Status : BaseModel
 	{
-		public int Id { get ; set; }
-	}
+		public string Name { get; set; } = default!;
+		public List<Book> Books { get; set; }
+		public List<Customer> Customers { get; set; }
+		public List<Order> Orders { get; set; }
+    }
 }
