@@ -9,18 +9,18 @@ namespace BookStore.Api.Helpers
 		{
 			if (!ProviderDirectoryExists())
 				return Enumerable.Empty<IServiceProvider>();
-			return GetServiceProviders(ProviderDirectoryPath);
+			return GetServiceProviders();
 		}
 
 		private static bool ProviderDirectoryExists() => Directory.Exists(ProviderDirectoryPath);
 
-		private static IEnumerable<IServiceProvider> GetServiceProviders(string directoryPath)
+		private static IEnumerable<IServiceProvider> GetServiceProviders()
 		{
-			var files = GetProviderFiles(directoryPath);
+			var files = GetProviderFiles();
 			return files.SelectMany(file => GetServiceProviderInstances(file)).ToList();
 		}
 
-		private static string[] GetProviderFiles(string directoryPath) => Directory.GetFiles(directoryPath, "*.dll");
+		private static string[] GetProviderFiles() => Directory.GetFiles(ProviderDirectoryPath, "*.dll");
 
 		private static IEnumerable<IServiceProvider> GetServiceProviderInstances(string file)
 		{
