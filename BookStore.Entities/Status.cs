@@ -1,6 +1,8 @@
-﻿namespace BookStore.Entities
+﻿using BookStore.Entities.Interfaces;
+
+namespace BookStore.Entities
 {
-	public class Status : BaseModel
+    public class Status : BaseModel
 	{
 		public string Name { get; set; } = default!;
 		public List<Book> Books { get; set; }

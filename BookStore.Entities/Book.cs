@@ -1,6 +1,8 @@
-﻿namespace BookStore.Entities
+﻿using BookStore.Entities.Interfaces;
+
+namespace BookStore.Entities
 {
-	public class Book : StatusableModel
+    public class Book : StatusableModel
 	{
 		public string Name { get; set; } = default!;
 		public string Autor { get; set; } = default!;

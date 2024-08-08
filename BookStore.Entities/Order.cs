@@ -1,6 +1,8 @@
-﻿namespace BookStore.Entities
+﻿using BookStore.Entities.Interfaces;
+
+namespace BookStore.Entities
 {
-	public class Order : StatusableModel
+    public class Order : StatusableModel
 	{
         public DateTime Date { get; set; }
         public int CustomerId { get; set; }
