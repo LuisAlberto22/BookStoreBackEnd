@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luis\\source\\repos\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj": {}
+    "C:\\Users\\Luis\\source\\repos\\B\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luis\\source\\repos\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj": {
+    "C:\\Users\\Luis\\source\\repos\\B\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luis\\source\\repos\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Luis\\source\\repos\\B\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj",
         "projectName": "BookStore.Entities",
-        "projectPath": "C:\\Users\\Luis\\source\\repos\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj",
+        "projectPath": "C:\\Users\\Luis\\source\\repos\\B\\BookStore\\BookStore.Entities\\BookStore.Entities.csproj",
         "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luis\\source\\repos\\BookStore\\BookStore.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Luis\\source\\repos\\B\\BookStore\\BookStore.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",

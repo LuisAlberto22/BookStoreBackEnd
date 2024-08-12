@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookStore.Dtos\BookStore.Dtos.csproj" />
+    <ProjectReference Include="..\BookStore.Entities\BookStore.Entities.csproj" />
+    <ProjectReference Include="..\BookStore.Repositories\BookStore.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>

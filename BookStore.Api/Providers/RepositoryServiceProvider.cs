@@ -1,6 +1,7 @@
 ﻿
-using BookStore.Repositories;
 using BookStore.Repositories.Interfaces;
+using BookStore.Repositories.Repositories;
+using IServiceProvider = BookStore.Api.Providers.Interfaces.IServiceProvider;
 
 namespace BookStore.Api.Providers
 {

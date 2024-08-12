@@ -1,6 +1,8 @@
-﻿namespace BookStore.Repositories.Interfaces
+﻿using BookStore.Entities;
+
+namespace BookStore.Repositories.Interfaces
 {
-	public interface IBookRepository
+	public interface IBookRepository : IRepositoryBase<Book>
 	{
 	}
 }

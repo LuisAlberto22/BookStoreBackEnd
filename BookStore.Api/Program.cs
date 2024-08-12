@@ -1,16 +1,19 @@
-using BookStore.Api.Providers;
+using BookStore.Api.Providers.Interfaces;
+using BookStore.Api.Providers.Registers;
+using BookStore.Pagination.Extensions;
+using BookStore.Pagination.Pagination;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 IServiceProviderRegister providerRegister = new ServiceProviderRegister();
-
+providerRegister.RegisterProviders(builder);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-providerRegister.RegisterProviders(builder);
+builder.Services.AddPaginator<Paginator>();
 
 var app = builder.Build();
 

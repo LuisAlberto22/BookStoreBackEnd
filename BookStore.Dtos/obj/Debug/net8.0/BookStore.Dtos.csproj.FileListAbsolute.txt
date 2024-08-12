@@ -1,0 +1,12 @@
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\BookStore.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\BookStore.Dtos.AssemblyInfoInputs.cache
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\BookStore.Dtos.AssemblyInfo.cs
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\BookStore.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\BookStore.Dtos.sourcelink.json
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\bin\Debug\net8.0\BookStore.Dtos.deps.json
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\bin\Debug\net8.0\BookStore.Dtos.dll
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\bin\Debug\net8.0\BookStore.Dtos.pdb
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\BookStore.Dtos.dll
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\refint\BookStore.Dtos.dll
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\BookStore.Dtos.pdb
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Dtos\obj\Debug\net8.0\ref\BookStore.Dtos.dll

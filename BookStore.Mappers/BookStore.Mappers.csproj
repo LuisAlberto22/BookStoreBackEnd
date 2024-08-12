@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookStore.Dtos\BookStore.Dtos.csproj" />
+    <ProjectReference Include="..\BookStore.Entities\BookStore.Entities.csproj" />
+    <ProjectReference Include="..\BookStore.Pagination\BookStore.Pagination.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\bin\Debug\net8.0\BookStore.Pagination.deps.json
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\bin\Debug\net8.0\BookStore.Pagination.dll
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\bin\Debug\net8.0\BookStore.Pagination.pdb
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.csproj.AssemblyReference.cache
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.AssemblyInfoInputs.cache
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.AssemblyInfo.cs
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.csproj.CoreCompileInputs.cache
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.sourcelink.json
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.dll
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\refint\BookStore.Pagination.dll
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\BookStore.Pagination.pdb
+C:\Users\Luis\source\repos\B\BookStore\BookStore.Pagination\obj\Debug\net8.0\ref\BookStore.Pagination.dll

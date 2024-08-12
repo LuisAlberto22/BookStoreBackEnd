@@ -1,22 +1,17 @@
 ﻿using BookStore.Entities;
-using Microsoft.EntityFrameworkCore;
+using BookStore.Persistences.Configurations.BaseConfigurations;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Persistences.Configurations
 {
-	internal class OrderConfiguration : IEntityTypeConfiguration<Order>
+	internal class OrderConfiguration : EntityTypeBaseConfiguration<Order>
 	{
-		public void Configure(EntityTypeBuilder<Order> builder)
-		{
-			ConfigurateProperties(builder);
-			ConfigurateConstrains(builder);
-			ConfigurateTableName(builder);
-		}
-		protected void ConfigurateTableName(EntityTypeBuilder<Order> builder)
+		protected override void ConfigurateTableName(EntityTypeBuilder<Order> builder)
 		{
 			builder.ToTable(nameof(Order) + 's');
 		}
-		protected void ConfigurateConstrains(EntityTypeBuilder<Order> builder)
+		protected override void ConfigurateConstrains(EntityTypeBuilder<Order> builder)
 		{
 			builder.HasOne(o => o.Customer)
 					.WithMany(c => c.Orders)
@@ -29,7 +24,7 @@ namespace BookStore.Persistences.Configurations
 				.OnDelete(DeleteBehavior.NoAction);
 		}
 
-		protected void ConfigurateProperties(EntityTypeBuilder<Order> builder)
+		protected override void ConfigurateProperties(EntityTypeBuilder<Order> builder)
 		{
 			builder.Property(x => x.Date)
 				.IsRequired()
